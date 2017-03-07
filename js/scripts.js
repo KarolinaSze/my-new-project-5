@@ -21,6 +21,10 @@ function getTriangleArea(a, h) {
 	return triangleArea;
 }
 
-console.log( getTriangleArea(10, 6) );
+function emptyFunction(name) {
+	console.log(name + ' jest na dobrej drodze by zostać Frontend Developerką.');
+}
 
+console.log( getTriangleArea(10, 6) );
+emptyFunction('Karolina');
 
