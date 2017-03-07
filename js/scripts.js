@@ -9,7 +9,7 @@ console.log('triangle3Area='+triangle3Area);
 
 function getTriangleArea(a, h) {
 
-	if(a <= 0 || h <= 0){
+	if (a <= 0 || h <= 0) {
 		console.log('Nieprawidłowe dane');
 		return 'Nieprawidłowe dane';
 	}
